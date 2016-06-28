@@ -5,7 +5,5 @@ script: echo "success"
 deploy:
   provider: heroku
   api_key:
-    secure: L6ebW4JbFkQZK3nUOnCIalFWSz2XZUNOei51tcrsbUREYL4XHuN0awknIC5ITQglMEaVcFvYgWAun7i0twK+1ev8TMf8JSik8G9O2h/krZ+HwvMxXQAWSXOiy1ITcft5rWkv4o3+lXR277EiIcsfjzHt9nL9KLOd7V3HOI2mBpA=
+    secure: Q+znt+yOevxE7pMZfZX0yZMdyYa/RhQdx68GyLwdhVbCsLY0qMOHWP14pK7aq+8C+Gb52Nl80TDXXNDwKH/ciGC8JYcXSRoBslaQXkRMNc8+upIp8bzsgfzIefEN7uKqTqIwLAs9iNy18m0BYxcVavZ5Cz5WyktXAc0ebEqeU6g=
   app: serene-tor-17655
- # on:
- #   repo: heroku/python-getting-started
