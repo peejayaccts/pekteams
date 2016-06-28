@@ -1,9 +1,7 @@
-language: python
-python:
-- '2.7'
-script: echo "success"
 deploy:
   provider: heroku
   api_key:
-    secure: VQbl8LvW0GOQqTHsvTkrDa9uhJi31Y5pv9sUstf1ZiN94aEf42guAjccofuXpTEprait7QH+FqaxlWHzhvTi8JEP7PTobCYEHgfboVH9K33Y02VMo0DRdAu/OEg1gAhRnT0wreEL1f09mQeDg832scooRCx11JQfGqLpeL3ineY=
+    secure: MuZk8NXMrQX7gFZOFR1M0io4tiXwep8z11dozMP72GE6a6D+Zy6kEQFKSwL9MxWC1Eo9pqwynwE9XDN0rfNnf9WPh+TMAcZmO+L7vCxdT4ApO5a3TqveRchEP9Vtk95V+iP1ZQYnEjXTFycx01dhMN4yHth322XHLt1PIX7RSn8=
   app: serene-tor-17655
+  on:
+    all_branches: true 
