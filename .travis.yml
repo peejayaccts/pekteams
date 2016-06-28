@@ -6,3 +6,7 @@ install:
   - "pip install -r requirements.txt"
 # # command to run tests
 script: echo foo 
+deploy:
+  provider: heroku
+  api_key:
+    secure: "408060fe-1204-423b-88ea-31d3ef0992c8"
