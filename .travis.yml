@@ -1,14 +1,7 @@
-language: python
-python:
-- 2.7.9
-install:
-- pip install -r requirements.txt
-script: echo foo
 deploy:
   provider: heroku
   api_key:
-     secure: "W642O817fydXyv1FkjGfNwZztraMxF/lOZrLhQiLb57AEiTo//FbwBxvIZH/nOH1bPEBj2r+F05mdsdNkT7IMy2tMKeZDJnKYx2AN9BKYo294vF0+U/p3AyOIgejdpsNPKOYFZxkVd/VdqVQSp2a3H82VIL5gb+MM1i0//GPpfo="
-
-
-
-
+    secure: L6ebW4JbFkQZK3nUOnCIalFWSz2XZUNOei51tcrsbUREYL4XHuN0awknIC5ITQglMEaVcFvYgWAun7i0twK+1ev8TMf8JSik8G9O2h/krZ+HwvMxXQAWSXOiy1ITcft5rWkv4o3+lXR277EiIcsfjzHt9nL9KLOd7V3HOI2mBpA=
+  app: serene-tor-17655
+  on:
+    repo: heroku/python-getting-started
