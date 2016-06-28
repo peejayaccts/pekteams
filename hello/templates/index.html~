@@ -8,7 +8,7 @@
     <a href="/" class="lang-logo">
       <img src="{% static 'lang-logo.png'%}">
     </a>
-    <h1>Getting Started with Python on Heroku</h1>
+    <h1>PHILIP SALES</h1>
     <p>This is a sample Python application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
     <a type="button" class="btn btn-lg btn-default"
         href="https://devcenter.heroku.com/articles/getting-started-with-python"><span
@@ -22,7 +22,7 @@
     To deploy your own copy, and learn the fundamentals of the Heroku
     platform, head over to the <a
         href="https://devcenter.heroku.com/articles/getting-started-with-python"
-        class="alert-link">Philip Salesu</a> tutorial.
+        class="alert-link">THIS IS THE MANPhilip Salesu</a> tutorial.
   </div>
   <hr>
   <div class="row">
