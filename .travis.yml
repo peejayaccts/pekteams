@@ -7,4 +7,4 @@ script: echo foo
 deploy:
   provider: heroku
   api_key:
-    secure: MMjPhOQpkKtB0sgWizIt/9t5jKc8/HJS4PPTwBNEQX9SIcbbf7qm5Uu6c75swXguTbdMlYglfIcf2xvd+6kyZ795zoiTfIkI4RrAZ4kQ0HHd6J6FZIVf5aNC1esfVqA65gg9RSxTxq0LYJQQy7zH4rLdeUIbCxpKx8P7MV5xncE=
+    secure: "VC+IN8ofqEWkoTnw7e9gHFwH3XSgD7IrDWMtbU0T1ErvKYUAUcjjORdZR9KzPsKizko7lKZ43o4Di1eIGUya6SA9QGwRD3kYXvUzzDyJgawMs29WdmQATYgIOHTaioECQ1t/B0hBEz4VWU5zn0YXzepgl+6RSv+e7oW2SYnH85E="
