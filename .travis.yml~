@@ -1,12 +1,10 @@
 language: python
 python:
-  - "2.7.9"
-# command to install dependencies
-install: 
-  - "pip install -r requirements.txt"
-# # command to run tests
-script: echo foo 
+- 2.7.9
+install:
+- pip install -r requirements.txt
+script: echo foo
 deploy:
   provider: heroku
   api_key:
-    secure: "408060fe-1204-423b-88ea-31d3ef0992c8"
+    secure: MMjPhOQpkKtB0sgWizIt/9t5jKc8/HJS4PPTwBNEQX9SIcbbf7qm5Uu6c75swXguTbdMlYglfIcf2xvd+6kyZ795zoiTfIkI4RrAZ4kQ0HHd6J6FZIVf5aNC1esfVqA65gg9RSxTxq0LYJQQy7zH4rLdeUIbCxpKx8P7MV5xncE=
