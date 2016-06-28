@@ -1,9 +1,9 @@
 language: python
 python:
-  - "2.7"
+- '2.7'
 script: echo "success"
 deploy:
   provider: heroku
-  api_key:
-    secure: Q+znt+yOevxE7pMZfZX0yZMdyYa/RhQdx68GyLwdhVbCsLY0qMOHWP14pK7aq+8C+Gb52Nl80TDXXNDwKH/ciGC8JYcXSRoBslaQXkRMNc8+upIp8bzsgfzIefEN7uKqTqIwLAs9iNy18m0BYxcVavZ5Cz5WyktXAc0ebEqeU6g=
   app: serene-tor-17655
+  api_key:
+    secure: cUM2aFg3995U7QNH88kxBr3JhdgCxCJrTl2slWUrJsslwDvTP2xN8YhXPvLTp6YbR3LouTj0IY3nZkDg7BAm12SqWeVdbCbq1WtrR0kvAaVU9NqRXTJfkabR2gFqCuODnrxMjEk1qR/KkK6/6XlPCVehAK/Xb7Ng7h41kiOFjog=
