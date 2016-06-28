@@ -1,3 +1,7 @@
+language: python
+python:
+  - "2.7"
+script: echo "success"
 deploy:
   provider: heroku
   api_key:
