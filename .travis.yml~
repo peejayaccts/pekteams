@@ -1,7 +1,7 @@
 deploy:
   provider: heroku
   api_key:
-    secure: MuZk8NXMrQX7gFZOFR1M0io4tiXwep8z11dozMP72GE6a6D+Zy6kEQFKSwL9MxWC1Eo9pqwynwE9XDN0rfNnf9WPh+TMAcZmO+L7vCxdT4ApO5a3TqveRchEP9Vtk95V+iP1ZQYnEjXTFycx01dhMN4yHth322XHLt1PIX7RSn8=
+    secure: e9m2O1ANuA7MB3iVa5iYNlXZy39YOEmkBlyJmaV/hSfAREFexFcBOvidhwdDbp/YkQpjCIxBMz0q0xyKweIFz9WvNKd50KDqSKa+vT1Lz1qpiQybbf293cdfYFPmim9HTReamH7TdQ4Cyb/VfJpGq2tWxAuptnyVR9kGo8OUF7w=
   app: serene-tor-17655
   on:
-    all_branches: true 
+    repo: heroku/python-getting-started
