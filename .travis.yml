@@ -11,4 +11,5 @@ deploy:
     repo: heroku/python-getting-started
 notifications:
   slack:
-    secure: CWPGDkitIifFP0fUISq54At6sM8KWkj/sZqC5jV8jtx1+u88qiwKJk4Yy6Kj4BkgeI3bjDxNSwscGrkeEJBgLNK5yIQ+ueKNPlLK+a3/wD8n73ho/pddRb3bDUJor7vUoa29P+ouZzmaY/OeamcgQHiYHYxPqvnTJXPUwkLkeL8=
+    rooms:
+      - pekteamgroup:OoJVNgVCp0ZDAHWnsOoa4Wjj#travis-updates
